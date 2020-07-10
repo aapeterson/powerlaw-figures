@@ -245,6 +245,7 @@ def inset_gamma_panel(ax):
     ax.legend()
     ax.set_xlabel(r'$\varepsilon$')
     ax.set_ylabel('population density')
+    ax.set_xlim([0, max(xs)])
     ax.set_yticks([])
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
